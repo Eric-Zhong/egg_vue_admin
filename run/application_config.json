@@ -109,7 +109,7 @@
         "c:\\work\\egg_vue_admin\\node_modules\\_egg-webpack-vue@2.0.1@egg-webpack-vue\\config\\locales",
         "c:\\work\\egg_vue_admin\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\locales",
         "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\locales",
-        "c:\\work\\egg_vue_admin\\config\\locales"
+        "C:\\work\\egg_vue_admin\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -150,7 +150,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "c:\\work\\egg_vue_admin\\logs\\egg_vue_admin\\egg-schedule.log"
+        "file": "C:\\work\\egg_vue_admin\\logs\\egg_vue_admin\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -164,7 +164,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "c:\\work\\egg_vue_admin\\public",
+      "dir": "C:\\work\\egg_vue_admin\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -174,7 +174,7 @@
     },
     "view": {
       "root": [
-        "c:\\work\\egg_vue_admin\\app\\view"
+        "C:\\work\\egg_vue_admin\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -185,8 +185,8 @@
     },
     "vuessr": {
       "doctype": "<!doctype html>",
-      "layout": "c:\\work\\egg_vue_admin\\app\\web\\view\\layout.html",
-      "manifest": "c:\\work\\egg_vue_admin\\config\\manifest.json",
+      "layout": "C:\\work\\egg_vue_admin\\app\\web\\view\\layout.html",
+      "manifest": "C:\\work\\egg_vue_admin\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": false,
@@ -200,12 +200,12 @@
       },
       "afterRender": "<Function afterRender>",
       "renderOptions": {
-        "basedir": "c:\\work\\egg_vue_admin\\app\\view"
+        "basedir": "C:\\work\\egg_vue_admin\\app\\view"
       }
     },
     "serviceworker": {
-      "dir": "c:\\work\\egg_vue_admin\\public",
-      "mapping": "c:\\work\\egg_vue_admin\\public\\sw-mapping.json"
+      "dir": "C:\\work\\egg_vue_admin\\public",
+      "mapping": "C:\\work\\egg_vue_admin\\public\\sw-mapping.json"
     },
     "cors": {
       "origin": "<Function corsOrigin>"
@@ -223,7 +223,7 @@
     "logview": {
       "prefix": "__logs",
       "staticHost": "https://unpkg.cnpmjs.org",
-      "dir": "c:\\work\\egg_vue_admin\\logs"
+      "dir": "C:\\work\\egg_vue_admin\\logs"
     },
     "env": "local",
     "name": "egg_vue_admin",
@@ -263,6 +263,7 @@
         "egg-validate": "^1.0.0",
         "egg-view-vue-ssr": "^3.0.2",
         "element-ui": "^2.0.8",
+        "js-cookie": "^2.2.0",
         "lodash": "^4.17.4",
         "moment": "^2.17.1",
         "service-worker-register": "^1.2.4",
@@ -309,9 +310,9 @@
       "license": "MIT",
       "homepage": "https://github.com/hubcarl/egg-vue-webpack-boilerplate"
     },
-    "baseDir": "c:\\work\\egg_vue_admin",
+    "baseDir": "C:\\work\\egg_vue_admin",
     "HOME": "C:\\Users\\xuzho",
-    "rundir": "c:\\work\\egg_vue_admin\\run",
+    "rundir": "C:\\work\\egg_vue_admin\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -342,7 +343,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "c:\\work\\egg_vue_admin\\logs",
+      "dir": "C:\\work\\egg_vue_admin\\logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -575,7 +576,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\work\\egg_vue_admin\\config\\plugin.js",
+      "from": "C:\\work\\egg_vue_admin\\config\\plugin.js",
       "path": "c:\\work\\egg_vue_admin\\node_modules\\_egg-static@2.1.0@egg-static",
       "version": "2.1.0"
     },
@@ -597,7 +598,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\work\\egg_vue_admin\\config\\plugin.js",
+      "from": "C:\\work\\egg_vue_admin\\config\\plugin.js",
       "path": "c:\\work\\egg_vue_admin\\node_modules\\_egg-view-vue-ssr@3.0.7@egg-view-vue-ssr",
       "version": "3.0.7"
     },
@@ -608,7 +609,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\work\\egg_vue_admin\\config\\plugin.js",
+      "from": "C:\\work\\egg_vue_admin\\config\\plugin.js",
       "path": "c:\\work\\egg_vue_admin\\node_modules\\_egg-serviceworker@1.0.0@egg-serviceworker",
       "version": "1.0.0"
     },
@@ -619,7 +620,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\work\\egg_vue_admin\\config\\plugin.local.js",
+      "from": "C:\\work\\egg_vue_admin\\config\\plugin.local.js",
       "path": "c:\\work\\egg_vue_admin\\node_modules\\_egg-cors@2.0.0@egg-cors",
       "version": "2.0.0"
     },
@@ -632,7 +633,7 @@
       "env": [
         "local"
       ],
-      "from": "c:\\work\\egg_vue_admin\\config\\plugin.local.js",
+      "from": "C:\\work\\egg_vue_admin\\config\\plugin.local.js",
       "path": "c:\\work\\egg_vue_admin\\node_modules\\_egg-webpack@4.0.3@egg-webpack",
       "version": "4.0.3"
     },
@@ -645,7 +646,7 @@
       "env": [
         "local"
       ],
-      "from": "c:\\work\\egg_vue_admin\\config\\plugin.local.js",
+      "from": "C:\\work\\egg_vue_admin\\config\\plugin.local.js",
       "path": "c:\\work\\egg_vue_admin\\node_modules\\_egg-webpack-vue@2.0.1@egg-webpack-vue",
       "version": "2.0.1"
     },
@@ -658,7 +659,7 @@
       "name": "logview",
       "dependencies": [],
       "optionalDependencies": [],
-      "from": "c:\\work\\egg_vue_admin\\config\\plugin.local.js",
+      "from": "C:\\work\\egg_vue_admin\\config\\plugin.local.js",
       "path": "c:\\work\\egg_vue_admin\\node_modules\\_egg-logview@1.0.1@egg-logview",
       "version": "1.0.1"
     }

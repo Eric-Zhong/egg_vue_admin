@@ -20,4 +20,6 @@ module.exports = app => {
   app.get('/css/module', app.controller.css.css.module);
   app.get('/sass', app.controller.css.css.sass);
   app.get('/test', app.controller.test.test.index);
+
+  app.get('/admin', app.controller.admin.admin.index);
 };

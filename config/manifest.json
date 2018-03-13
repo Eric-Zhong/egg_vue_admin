@@ -2,21 +2,22 @@
   "about/about.js": "/public/js/about/about.js",
   "js/chunk/0.js": "/public/js/chunk/0.js",
   "js/chunk/1.js": "/public/js/chunk/1.js",
+  "app/component/detail.js": "/public/js/app/component/detail.js",
   "app/component/list.js": "/public/js/app/component/list.js",
   "css/module/module.js": "/public/js/css/module/module.js",
   "dynamic/component/async.js": "/public/js/dynamic/component/async.js",
   "dynamic/component/error.js": "/public/js/dynamic/component/error.js",
   "dynamic/component/loading.js": "/public/js/dynamic/component/loading.js",
-  "dynamic/dynamic.js": "/public/js/dynamic/dynamic.js",
-  "app/app.js": "/public/js/app/app.js",
+  "admin/admin.js": "/public/js/admin/admin.js",
+  "element/element.js": "/public/js/element/element.js",
   "index/index.js": "/public/js/index/index.js",
   "less/less.js": "/public/js/less/less.js",
   "router/router.js": "/public/js/router/router.js",
   "sass/sass.js": "/public/js/sass/sass.js",
   "test/test.js": "/public/js/test/test.js",
   "js/chunk/2.js": "/public/js/chunk/2.js",
-  "app/component/detail.js": "/public/js/app/component/detail.js",
-  "element/element.js": "/public/js/element/element.js",
+  "app/app.js": "/public/js/app/app.js",
+  "dynamic/dynamic.js": "/public/js/dynamic/dynamic.js",
   "img/egg-vue-webpack-dev.png": "/public/img/egg-vue-webpack-dev.png",
   "img/logo.png": "/public/img/logo.png",
   "font/fontawesome-webfont.ttf": "/public/font/fontawesome-webfont.ttf",
@@ -43,6 +44,13 @@
       "js": [
         "/public/js/vendor.js",
         "/public/js/chunk/1.js"
+      ],
+      "css": []
+    },
+    "app/component/detail.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/app/component/detail.js"
       ],
       "css": []
     },
@@ -81,17 +89,17 @@
       ],
       "css": []
     },
-    "dynamic/dynamic.js": {
+    "admin/admin.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/dynamic/dynamic.js"
+        "/public/js/admin/admin.js"
       ],
       "css": []
     },
-    "app/app.js": {
+    "element/element.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/app/app.js"
+        "/public/js/element/element.js"
       ],
       "css": []
     },
@@ -137,17 +145,17 @@
       ],
       "css": []
     },
-    "app/component/detail.js": {
+    "app/app.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/app/component/detail.js"
+        "/public/js/app/app.js"
       ],
       "css": []
     },
-    "element/element.js": {
+    "dynamic/dynamic.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/element/element.js"
+        "/public/js/dynamic/dynamic.js"
       ],
       "css": []
     },

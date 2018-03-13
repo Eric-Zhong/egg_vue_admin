@@ -9,3 +9,10 @@ C:\work\egg_vue_admin\app\web\component\layout\standard\index.js
 在下面文件中可以增加菜单
 C:\work\egg_vue_admin\app\web\component\layout\standard\header\header.vue
 
+
+
+## 复制多语言文件
+From
+C:\Users\xuzho\Work\Nodejs\vue-element-admin\src\lang
+To
+C:\work\egg_vue_admin\app\lang

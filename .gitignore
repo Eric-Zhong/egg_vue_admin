@@ -18,3 +18,9 @@ selenium-debug.log
 *.sln
 
 package-lock.json
+
+# XZ
+logs/
+run/
+public/
+
