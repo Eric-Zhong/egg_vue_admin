@@ -125,5 +125,8 @@ export default {
     change: 'Theme change',
     documentation: 'Theme documentation',
     tips: 'Tips: It is different from the theme-pick on the navbar is two different skinning methods, each with different application scenarios. Refer to the documentation for details.'
+  },
+  admin: {
+    title: 'i18n translate to English'
   }
 };

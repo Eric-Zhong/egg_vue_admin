@@ -1,10 +1,20 @@
-const Controller = require('egg').Controller;
-class AdminController extends Controller {
-  async index() {
-    await this.ctx.render('admin/admin.js', {
-      url: this.ctx.url.replace(/\/admin/, '')
-    });
-  }
-}
+const Model = require('../../mocks/article/list');
 
-module.exports = AdminController;
+module.exports = app => {
+
+  return class AdminController extends app.Controller {
+
+    async index() {
+      const { ctx } = this;
+      await ctx.render('admin/admin.js', Model.getPage(1, 10));
+    }
+
+    async pager() {
+      const { ctx } = this;
+      const pageIndex = ctx.query.pageIndex;
+      const pageSize = ctx.query.pageSize;
+      ctx.body = Model.getPage(pageIndex, pageSize);
+    }
+
+  };
+};

@@ -7,10 +7,14 @@
 </template>
 <script type="text/babel">
 import Vue from "vue";
+import i18n from "../../../lang";
 import { sync } from "vuex-router-sync";
 import store from "store/app";
 import router from "./component/router";
 import Layout from "component/layout/app";
+
+Vue.use(i18n);
+
 sync(store, router);
 export default {
   router,

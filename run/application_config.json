@@ -88,7 +88,7 @@
       "appErrorFilter": null
     },
     "i18n": {
-      "defaultLocale": "en_US",
+      "defaultLocale": "zh-CN",
       "dirs": [
         "c:\\work\\egg_vue_admin\\node_modules\\_egg-session@3.1.0@egg-session\\config\\locales",
         "c:\\work\\egg_vue_admin\\node_modules\\_egg-security@2.0.0@egg-security\\config\\locales",
@@ -109,7 +109,7 @@
         "c:\\work\\egg_vue_admin\\node_modules\\_egg-webpack-vue@2.0.1@egg-webpack-vue\\config\\locales",
         "c:\\work\\egg_vue_admin\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\locales",
         "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\locales",
-        "C:\\work\\egg_vue_admin\\config\\locales"
+        "C:\\work\\egg_vue_admin\\config\\locale"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -262,12 +262,13 @@
         "egg-serviceworker": "^1.0.0",
         "egg-validate": "^1.0.0",
         "egg-view-vue-ssr": "^3.0.2",
-        "element-ui": "^2.0.8",
+        "element-ui": "^2.2.1",
         "js-cookie": "^2.2.0",
         "lodash": "^4.17.4",
         "moment": "^2.17.1",
         "service-worker-register": "^1.2.4",
         "vue": "^2.5.0",
+        "vue-i18n": "^7.6.0",
         "vue-router": "^3.0.1",
         "vuex": "^3.0.1",
         "vuex-router-sync": "^5.0.0"

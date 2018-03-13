@@ -60,6 +60,13 @@
   },
   "keys": "C:\\work\\egg_vue_admin\\config\\config.default.js",
   "middleware": "C:\\work\\egg_vue_admin\\config\\config.default.js",
+  "i18n": {
+    "defaultLocale": "C:\\work\\egg_vue_admin\\config\\config.default.js",
+    "queryField": "C:\\work\\egg_vue_admin\\config\\config.default.js",
+    "cookieField": "C:\\work\\egg_vue_admin\\config\\config.default.js",
+    "cookieMaxAge": "C:\\work\\egg_vue_admin\\config\\config.default.js",
+    "dirs": "c:\\work\\egg_vue_admin\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
   "development": {
     "watchDirs": "C:\\work\\egg_vue_admin\\config\\config.local.js",
     "ignoreDirs": "C:\\work\\egg_vue_admin\\config\\config.local.js",
@@ -144,13 +151,6 @@
     "errorPageUrl": "c:\\work\\egg_vue_admin\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js",
     "appErrorFilter": "c:\\work\\egg_vue_admin\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js"
   },
-  "i18n": {
-    "defaultLocale": "c:\\work\\egg_vue_admin\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "dirs": "c:\\work\\egg_vue_admin\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "queryField": "c:\\work\\egg_vue_admin\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "cookieField": "c:\\work\\egg_vue_admin\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "c:\\work\\egg_vue_admin\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
-  },
   "watcher": {
     "type": "c:\\work\\egg_vue_admin\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.local.js",
     "eventSources": {
@@ -231,6 +231,7 @@
       "moment": "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\config.default.js",
       "service-worker-register": "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\config.default.js",
       "vue": "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\config.default.js",
+      "vue-i18n": "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\config.default.js",
       "vue-router": "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\config.default.js",
       "vuex": "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\config.default.js",
       "vuex-router-sync": "c:\\work\\egg_vue_admin\\node_modules\\_egg@2.4.1@egg\\config\\config.default.js"
