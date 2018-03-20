@@ -3,6 +3,20 @@ import './filter';
 import './directive';
 import './component';
 
+// XZ: 添加 element-ui 组件
+/* 写在这里，也无法在 client 端使用 element-ui，还需要再研究
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import i18n from '@/lang';
+
+Vue.use(i18n);
+
+Vue.use(ElementUI, {
+  size: 'medium',
+  i18n: (key, value) => i18n.t(key, value)
+});
+*/
+
 const App = {};
 
 App.data = () => {

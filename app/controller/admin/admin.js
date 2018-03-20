@@ -1,4 +1,3 @@
-const Model = require('../../mocks/article/list');
 
 module.exports = app => {
 
@@ -6,15 +5,9 @@ module.exports = app => {
 
     async index() {
       const { ctx } = this;
-      await ctx.render('admin/admin.js', Model.getPage(1, 10));
+      await ctx.renderClient('admin/admin.js', {
+        url: this.ctx.url.replace(/\/admin/, '')
+      });
     }
-
-    async pager() {
-      const { ctx } = this;
-      const pageIndex = ctx.query.pageIndex;
-      const pageSize = ctx.query.pageSize;
-      ctx.body = Model.getPage(pageIndex, pageSize);
-    }
-
   };
 };

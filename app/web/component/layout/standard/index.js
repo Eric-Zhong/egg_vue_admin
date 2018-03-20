@@ -1,3 +1,6 @@
+console.log('=>进入/layout/standard/index.js');
+const msg = '=>EASY_ENV_IS_BROWSER = ' + EASY_ENV_IS_BROWSER;
+console.log(msg);
 
 import MainLayout from './main';
 

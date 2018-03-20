@@ -2,28 +2,110 @@
   "about/about.js": "/public/js/about/about.js",
   "js/chunk/0.js": "/public/js/chunk/0.js",
   "js/chunk/1.js": "/public/js/chunk/1.js",
-  "app/component/detail.js": "/public/js/app/component/detail.js",
-  "app/component/list.js": "/public/js/app/component/list.js",
+  "js/chunk/2.js": "/public/js/chunk/2.js",
+  "js/chunk/3.js": "/public/js/chunk/3.js",
+  "js/chunk/4.js": "/public/js/chunk/4.js",
+  "js/chunk/5.js": "/public/js/chunk/5.js",
+  "js/chunk/6.js": "/public/js/chunk/6.js",
+  "js/chunk/7.js": "/public/js/chunk/7.js",
+  "components-demo/countTo.js": "/public/js/components-demo/countTo.js",
+  "components-demo/dndList.js": "/public/js/components-demo/dndList.js",
+  "components-demo/dropzone.js": "/public/js/components-demo/dropzone.js",
+  "components-demo/jsonEditor.js": "/public/js/components-demo/jsonEditor.js",
+  "components-demo/markdown.js": "/public/js/components-demo/markdown.js",
+  "components-demo/mixin.js": "/public/js/components-demo/mixin.js",
+  "components-demo/splitpane.js": "/public/js/components-demo/splitpane.js",
+  "components-demo/sticky.js": "/public/js/components-demo/sticky.js",
+  "components-demo/tinymce.js": "/public/js/components-demo/tinymce.js",
   "css/module/module.js": "/public/js/css/module/module.js",
-  "dynamic/component/async.js": "/public/js/dynamic/component/async.js",
-  "dynamic/component/error.js": "/public/js/dynamic/component/error.js",
-  "dynamic/component/loading.js": "/public/js/dynamic/component/loading.js",
-  "admin/admin.js": "/public/js/admin/admin.js",
+  "dashboard/admin/components/BarChart.js": "/public/js/dashboard/admin/components/BarChart.js",
+  "dashboard/admin/components/BoxCard.js": "/public/js/dashboard/admin/components/BoxCard.js",
+  "dashboard/admin/components/LineChart.js": "/public/js/dashboard/admin/components/LineChart.js",
+  "dashboard/admin/components/PanelGroup.js": "/public/js/dashboard/admin/components/PanelGroup.js",
+  "dashboard/admin/components/PieChart.js": "/public/js/dashboard/admin/components/PieChart.js",
+  "dashboard/admin/components/RaddarChart.js": "/public/js/dashboard/admin/components/RaddarChart.js",
+  "dashboard/admin/components/TodoList/Todo.js": "/public/js/dashboard/admin/components/TodoList/Todo.js",
+  "dashboard/admin/components/TodoList/index.js": "/public/js/dashboard/admin/components/TodoList/index.js",
+  "dashboard/admin/components/TransactionTable.js": "/public/js/dashboard/admin/components/TransactionTable.js",
+  "dashboard/admin/index.js": "/public/js/dashboard/admin/index.js",
+  "dashboard/editor/index.js": "/public/js/dashboard/editor/index.js",
+  "dashboard/index.js": "/public/js/dashboard/index.js",
+  "documentation/index.js": "/public/js/documentation/index.js",
+  "dynamic/dynamic.js": "/public/js/dynamic/dynamic.js",
   "element/element.js": "/public/js/element/element.js",
+  "errorLog/errorTestA.js": "/public/js/errorLog/errorTestA.js",
+  "errorLog/errorTestB.js": "/public/js/errorLog/errorTestB.js",
+  "errorLog/index.js": "/public/js/errorLog/index.js",
+  "errorPage/401.js": "/public/js/errorPage/401.js",
+  "errorPage/404.js": "/public/js/errorPage/404.js",
+  "admin/admin.js": "/public/js/admin/admin.js",
+  "example/tab/index.js": "/public/js/example/tab/index.js",
+  "example/table/complexTable.js": "/public/js/example/table/complexTable.js",
+  "example/table/dragTable.js": "/public/js/example/table/dragTable.js",
+  "example/table/dynamicTable/fixedThead.js": "/public/js/example/table/dynamicTable/fixedThead.js",
+  "example/table/dynamicTable/index.js": "/public/js/example/table/dynamicTable/index.js",
+  "example/table/dynamicTable/unfixedThead.js": "/public/js/example/table/dynamicTable/unfixedThead.js",
+  "example/table/index.js": "/public/js/example/table/index.js",
+  "example/table/inlineEditTable.js": "/public/js/example/table/inlineEditTable.js",
+  "example/table/treeTable/customTreeTable.js": "/public/js/example/table/treeTable/customTreeTable.js",
+  "example/table/treeTable/treeTable.js": "/public/js/example/table/treeTable/treeTable.js",
+  "excel/exportExcel.js": "/public/js/excel/exportExcel.js",
+  "excel/selectExcel.js": "/public/js/excel/selectExcel.js",
+  "excel/uploadExcel.js": "/public/js/excel/uploadExcel.js",
+  "form/create.js": "/public/js/form/create.js",
+  "form/edit.js": "/public/js/form/edit.js",
+  "i18n-demo/index.js": "/public/js/i18n-demo/index.js",
   "index/index.js": "/public/js/index/index.js",
+  "layout/Layout.js": "/public/js/layout/Layout.js",
   "less/less.js": "/public/js/less/less.js",
+  "login/authredirect.js": "/public/js/login/authredirect.js",
+  "login/index.js": "/public/js/login/index.js",
+  "login/socialsignin.js": "/public/js/login/socialsignin.js",
+  "permission/index.js": "/public/js/permission/index.js",
+  "qiniu/upload.js": "/public/js/qiniu/upload.js",
   "router/router.js": "/public/js/router/router.js",
   "sass/sass.js": "/public/js/sass/sass.js",
+  "svg-icons/index.js": "/public/js/svg-icons/index.js",
   "test/test.js": "/public/js/test/test.js",
-  "js/chunk/2.js": "/public/js/chunk/2.js",
+  "theme/index.js": "/public/js/theme/index.js",
+  "zip/index.js": "/public/js/zip/index.js",
+  "js/chunk/8.js": "/public/js/chunk/8.js",
   "app/app.js": "/public/js/app/app.js",
-  "dynamic/dynamic.js": "/public/js/dynamic/dynamic.js",
+  "charts/keyboard.js": "/public/js/charts/keyboard.js",
+  "charts/line.js": "/public/js/charts/line.js",
+  "charts/mixChart.js": "/public/js/charts/mixChart.js",
+  "clipboard/index.js": "/public/js/clipboard/index.js",
+  "components-demo/avatarUpload.js": "/public/js/components-demo/avatarUpload.js",
+  "components-demo/backToTop.js": "/public/js/components-demo/backToTop.js",
+  "example/tab/components/tabPane.js": "/public/js/example/tab/components/tabPane.js",
+  "img/404.svg": "/public/img/404.svg",
+  "img/clipboard.svg": "/public/img/clipboard.svg",
+  "img/dashboard.svg": "/public/img/dashboard.svg",
+  "img/example.svg": "/public/img/example.svg",
+  "img/eye.svg": "/public/img/eye.svg",
+  "img/form.svg": "/public/img/form.svg",
+  "img/icon.svg": "/public/img/icon.svg",
+  "img/international.svg": "/public/img/international.svg",
+  "img/language.svg": "/public/img/language.svg",
+  "img/lock.svg": "/public/img/lock.svg",
+  "img/password.svg": "/public/img/password.svg",
+  "img/people.svg": "/public/img/people.svg",
+  "img/peoples.svg": "/public/img/peoples.svg",
+  "img/qq.svg": "/public/img/qq.svg",
+  "img/shoppingCard.svg": "/public/img/shoppingCard.svg",
+  "img/star.svg": "/public/img/star.svg",
+  "img/tab.svg": "/public/img/tab.svg",
+  "img/table.svg": "/public/img/table.svg",
+  "img/theme.svg": "/public/img/theme.svg",
+  "img/wechat.svg": "/public/img/wechat.svg",
+  "img/zip.svg": "/public/img/zip.svg",
   "img/egg-vue-webpack-dev.png": "/public/img/egg-vue-webpack-dev.png",
+  "img/loading.gif": "/public/img/loading.gif",
   "img/logo.png": "/public/img/logo.png",
   "font/fontawesome-webfont.ttf": "/public/font/fontawesome-webfont.ttf",
   "font/element-icons.ttf": "/public/font/element-icons.ttf",
   "font/element-icons.woff": "/public/font/element-icons.woff",
-  "img/loading.gif": "/public/img/loading.gif",
+  "img/bug.svg": "/public/img/bug.svg",
   "vendor.js": "/public/js/vendor.js",
   "deps": {
     "about/about.js": {
@@ -47,17 +129,108 @@
       ],
       "css": []
     },
-    "app/component/detail.js": {
+    "js/chunk/2.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/app/component/detail.js"
+        "/public/js/chunk/2.js"
       ],
       "css": []
     },
-    "app/component/list.js": {
+    "js/chunk/3.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/app/component/list.js"
+        "/public/js/chunk/3.js"
+      ],
+      "css": []
+    },
+    "js/chunk/4.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/chunk/4.js"
+      ],
+      "css": []
+    },
+    "js/chunk/5.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/chunk/5.js"
+      ],
+      "css": []
+    },
+    "js/chunk/6.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/chunk/6.js"
+      ],
+      "css": []
+    },
+    "js/chunk/7.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/chunk/7.js"
+      ],
+      "css": []
+    },
+    "components-demo/countTo.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/countTo.js"
+      ],
+      "css": []
+    },
+    "components-demo/dndList.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/dndList.js"
+      ],
+      "css": []
+    },
+    "components-demo/dropzone.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/dropzone.js"
+      ],
+      "css": []
+    },
+    "components-demo/jsonEditor.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/jsonEditor.js"
+      ],
+      "css": []
+    },
+    "components-demo/markdown.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/markdown.js"
+      ],
+      "css": []
+    },
+    "components-demo/mixin.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/mixin.js"
+      ],
+      "css": []
+    },
+    "components-demo/splitpane.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/splitpane.js"
+      ],
+      "css": []
+    },
+    "components-demo/sticky.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/sticky.js"
+      ],
+      "css": []
+    },
+    "components-demo/tinymce.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/tinymce.js"
       ],
       "css": []
     },
@@ -68,31 +241,101 @@
       ],
       "css": []
     },
-    "dynamic/component/async.js": {
+    "dashboard/admin/components/BarChart.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/dynamic/component/async.js"
+        "/public/js/dashboard/admin/components/BarChart.js"
       ],
       "css": []
     },
-    "dynamic/component/error.js": {
+    "dashboard/admin/components/BoxCard.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/dynamic/component/error.js"
+        "/public/js/dashboard/admin/components/BoxCard.js"
       ],
       "css": []
     },
-    "dynamic/component/loading.js": {
+    "dashboard/admin/components/LineChart.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/dynamic/component/loading.js"
+        "/public/js/dashboard/admin/components/LineChart.js"
       ],
       "css": []
     },
-    "admin/admin.js": {
+    "dashboard/admin/components/PanelGroup.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/admin/admin.js"
+        "/public/js/dashboard/admin/components/PanelGroup.js"
+      ],
+      "css": []
+    },
+    "dashboard/admin/components/PieChart.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/admin/components/PieChart.js"
+      ],
+      "css": []
+    },
+    "dashboard/admin/components/RaddarChart.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/admin/components/RaddarChart.js"
+      ],
+      "css": []
+    },
+    "dashboard/admin/components/TodoList/Todo.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/admin/components/TodoList/Todo.js"
+      ],
+      "css": []
+    },
+    "dashboard/admin/components/TodoList/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/admin/components/TodoList/index.js"
+      ],
+      "css": []
+    },
+    "dashboard/admin/components/TransactionTable.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/admin/components/TransactionTable.js"
+      ],
+      "css": []
+    },
+    "dashboard/admin/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/admin/index.js"
+      ],
+      "css": []
+    },
+    "dashboard/editor/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/editor/index.js"
+      ],
+      "css": []
+    },
+    "dashboard/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dashboard/index.js"
+      ],
+      "css": []
+    },
+    "documentation/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/documentation/index.js"
+      ],
+      "css": []
+    },
+    "dynamic/dynamic.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dynamic/dynamic.js"
       ],
       "css": []
     },
@@ -103,6 +346,160 @@
       ],
       "css": []
     },
+    "errorLog/errorTestA.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/errorLog/errorTestA.js"
+      ],
+      "css": []
+    },
+    "errorLog/errorTestB.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/errorLog/errorTestB.js"
+      ],
+      "css": []
+    },
+    "errorLog/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/errorLog/index.js"
+      ],
+      "css": []
+    },
+    "errorPage/401.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/errorPage/401.js"
+      ],
+      "css": []
+    },
+    "errorPage/404.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/errorPage/404.js"
+      ],
+      "css": []
+    },
+    "admin/admin.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/admin/admin.js"
+      ],
+      "css": []
+    },
+    "example/tab/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/tab/index.js"
+      ],
+      "css": []
+    },
+    "example/table/complexTable.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/complexTable.js"
+      ],
+      "css": []
+    },
+    "example/table/dragTable.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/dragTable.js"
+      ],
+      "css": []
+    },
+    "example/table/dynamicTable/fixedThead.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/dynamicTable/fixedThead.js"
+      ],
+      "css": []
+    },
+    "example/table/dynamicTable/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/dynamicTable/index.js"
+      ],
+      "css": []
+    },
+    "example/table/dynamicTable/unfixedThead.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/dynamicTable/unfixedThead.js"
+      ],
+      "css": []
+    },
+    "example/table/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/index.js"
+      ],
+      "css": []
+    },
+    "example/table/inlineEditTable.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/inlineEditTable.js"
+      ],
+      "css": []
+    },
+    "example/table/treeTable/customTreeTable.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/treeTable/customTreeTable.js"
+      ],
+      "css": []
+    },
+    "example/table/treeTable/treeTable.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/table/treeTable/treeTable.js"
+      ],
+      "css": []
+    },
+    "excel/exportExcel.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/excel/exportExcel.js"
+      ],
+      "css": []
+    },
+    "excel/selectExcel.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/excel/selectExcel.js"
+      ],
+      "css": []
+    },
+    "excel/uploadExcel.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/excel/uploadExcel.js"
+      ],
+      "css": []
+    },
+    "form/create.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/form/create.js"
+      ],
+      "css": []
+    },
+    "form/edit.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/form/edit.js"
+      ],
+      "css": []
+    },
+    "i18n-demo/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/i18n-demo/index.js"
+      ],
+      "css": []
+    },
     "index/index.js": {
       "js": [
         "/public/js/vendor.js",
@@ -110,10 +507,52 @@
       ],
       "css": []
     },
+    "layout/Layout.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/layout/Layout.js"
+      ],
+      "css": []
+    },
     "less/less.js": {
       "js": [
         "/public/js/vendor.js",
         "/public/js/less/less.js"
+      ],
+      "css": []
+    },
+    "login/authredirect.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/login/authredirect.js"
+      ],
+      "css": []
+    },
+    "login/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/login/index.js"
+      ],
+      "css": []
+    },
+    "login/socialsignin.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/login/socialsignin.js"
+      ],
+      "css": []
+    },
+    "permission/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/permission/index.js"
+      ],
+      "css": []
+    },
+    "qiniu/upload.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/qiniu/upload.js"
       ],
       "css": []
     },
@@ -131,6 +570,13 @@
       ],
       "css": []
     },
+    "svg-icons/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/svg-icons/index.js"
+      ],
+      "css": []
+    },
     "test/test.js": {
       "js": [
         "/public/js/vendor.js",
@@ -138,10 +584,24 @@
       ],
       "css": []
     },
-    "js/chunk/2.js": {
+    "theme/index.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/chunk/2.js"
+        "/public/js/theme/index.js"
+      ],
+      "css": []
+    },
+    "zip/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/zip/index.js"
+      ],
+      "css": []
+    },
+    "js/chunk/8.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/chunk/8.js"
       ],
       "css": []
     },
@@ -152,10 +612,52 @@
       ],
       "css": []
     },
-    "dynamic/dynamic.js": {
+    "charts/keyboard.js": {
       "js": [
         "/public/js/vendor.js",
-        "/public/js/dynamic/dynamic.js"
+        "/public/js/charts/keyboard.js"
+      ],
+      "css": []
+    },
+    "charts/line.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/charts/line.js"
+      ],
+      "css": []
+    },
+    "charts/mixChart.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/charts/mixChart.js"
+      ],
+      "css": []
+    },
+    "clipboard/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/clipboard/index.js"
+      ],
+      "css": []
+    },
+    "components-demo/avatarUpload.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/avatarUpload.js"
+      ],
+      "css": []
+    },
+    "components-demo/backToTop.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/components-demo/backToTop.js"
+      ],
+      "css": []
+    },
+    "example/tab/components/tabPane.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/example/tab/components/tabPane.js"
       ],
       "css": []
     },
@@ -168,7 +670,7 @@
   },
   "info": {
     "publicPath": "/public/",
-    "buildPath": "\\public",
+    "buildPath": "public",
     "mapped": true
   }
 }
