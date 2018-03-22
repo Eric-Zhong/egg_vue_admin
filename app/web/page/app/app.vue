@@ -15,6 +15,9 @@ import Layout from "component/layout/app";
 
 Vue.use(i18n);
 
+console.log('=> 看看 router 的内容');
+console.log(router);
+
 sync(store, router);
 export default {
   router,

@@ -1,1 +1,1 @@
-module.exports = file => () => import('@/web/page' + file + '.vue');
+module.exports = file => () => import('@/web/page/' + file + '.vue');

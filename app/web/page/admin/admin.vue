@@ -21,14 +21,18 @@ Vue.use(i18n);
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
-/* XZ: 加载 router */
-import router from '@/router';
+/* XZ: 加载前端的 router */
+import router from '@/router/index';
 
 /* XZ: 加载 store */
 import store from 'store';
 
 /* XZ: 加载 icon */
 import '@/icons';
+
+import { sync } from "vuex-router-sync";
+
+sync(store, router);
 
 Vue.use(ElementUI, {
   size: 'medium',

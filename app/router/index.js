@@ -8,7 +8,7 @@ Vue.use(Router);
 
 /* Layout */
 // import Layout from '../views/layout/Layout';
-import layout from 'component/layout/admin';
+import Layout from 'component/layout/admin';
 
 /** note: submenu only apppear when children.length>=1
 *   detail see  https://panjiachen.github.io/vue-element-admin-site/#/router-and-nav?id=sidebar
@@ -80,7 +80,6 @@ export const asyncRouterMap = [
       }
     }]
   },
-
   {
     path: '/icon',
     component: Layout,
@@ -91,7 +90,6 @@ export const asyncRouterMap = [
       meta: { title: 'icons', icon: 'icon', noCache: true }
     }]
   },
-
   {
     path: '/components',
     component: Layout,

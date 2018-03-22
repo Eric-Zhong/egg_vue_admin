@@ -24,6 +24,9 @@ App.data = () => {
 };
 
 App.init = options => {
+  console.log('=>程序初始化 App.init(.)');
+  console.log('=>  判断 EASY_ENV_IS_NODE');
+  console.log(EASY_ENV_IS_NODE);
   if (EASY_ENV_IS_NODE) {
     return App.server(options);
   }
