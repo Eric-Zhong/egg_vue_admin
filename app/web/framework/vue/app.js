@@ -1,3 +1,8 @@
+/**
+ * XZ: Egg 启动自定义
+ * 我们常常需要在应用启动期间进行一些初始化工作，等初始化完成后应用才可以启动成功，并开始对外提供服务。
+ */
+
 import Vue from 'vue';
 import './filter';
 import './directive';
@@ -51,7 +56,9 @@ App.server = options => {
       options.router.push(context.state.url);
       const matchedComponents = options.router.getMatchedComponents();
       if (!matchedComponents) {
-        return Promise.reject({ code: '404' });
+        return Promise.reject({
+          code: '404'
+        });
       }
       return Promise.all(
         matchedComponents.map(component => {
@@ -68,7 +75,9 @@ App.server = options => {
   }
   return context => {
     const VueApp = Vue.extend(options);
-    const app = new VueApp({ data: context.state });
+    const app = new VueApp({
+      data: context.state
+    });
     return new Promise(resolve => {
       resolve(app);
     });
@@ -83,5 +92,16 @@ App.component = (name, component) => {
   Vue.component(name, component);
 };
 
+
+// 下边的东西是自己写的，好象不起做用
+App.onBeforeStart = () => {
+  console.log('Egg server will be started');
+};
+
+App.beforeStart(App.onBeforeStart);
+
+App.on('response', ctx => {
+  console.log('=>Response');
+});
 
 export default App;
